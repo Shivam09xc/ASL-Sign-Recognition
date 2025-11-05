@@ -155,5 +155,5 @@ Copy code
 ---
 
 ## 👨‍💻 Author
-**Project Developer:** *Your Name Here*  
-If using in GitHub → add:
+**Project Developer:** *Shivam Soni*  
+If using in GitHub → add: Shivam09xc
