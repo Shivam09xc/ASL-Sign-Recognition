@@ -38,21 +38,18 @@ This system is designed for **deaf & mute communication support**, gesture-contr
 git clone https://github.com/YourUsername/ASL-Sign-Recognition.git
 cd ASL-Sign-Recognition
 
-shell
-Copy code
+
 
 ### 2. Create Virtual Environment (Python 3.10 Required)
 py -3.10 -m venv handenv
 handenv\Scripts\activate
 
-shell
-Copy code
+
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
 
-yaml
-Copy code
+
 
 ---
 
@@ -61,8 +58,7 @@ Copy code
 Run dataset capture script:
 python capture_dataset.py
 
-markdown
-Copy code
+
 
 - Enter the **letter** (A–Z).
 - Show the hand sign in front of webcam.
@@ -77,8 +73,7 @@ dataset/
 ├── C/
 └── …
 
-yaml
-Copy code
+
 
 ---
 
@@ -86,15 +81,13 @@ Copy code
 After collecting dataset:
 python train_asl_landmarks.py
 
-yaml
-Copy code
+
 
 Output Model Files:
 model/asl_landmarks_mlp.h5
 model/labels.txt
 
-yaml
-Copy code
+
 
 Training Time: **5–18 minutes** depending on dataset size.
 
@@ -103,8 +96,7 @@ Training Time: **5–18 minutes** depending on dataset size.
 ## 🎮 Run Real-Time ASL Recognition
 python predict_asl_live.py
 
-mathematica
-Copy code
+
 
 Controls:
 | Key | Action |
@@ -117,8 +109,7 @@ Output Example:
 Pred: A (97%)
 FPS: 28
 
-yaml
-Copy code
+
 
 ---
 
