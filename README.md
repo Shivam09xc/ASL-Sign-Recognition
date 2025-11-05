@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-ASL%20Recognition-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/OpenCV-Enabled-green?style=for-the-badge&logo=opencv" />
+  <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TensorFlow-ML%20Model-FF6F00?style=for-the-badge&logo=tensorflow" />
+  <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" />
+</p>
+<h1 align="center">🖐 Real-Time American Sign Language (ASL) Recognition</h1>
+<p align="center">Using MediaPipe Hand Landmarks + TensorFlow Neural Network</p>
+
 # 🖐 Real-Time American Sign Language (ASL) Recognition Using Hand Landmarks
 
 This project recognizes **A–Z American Sign Language gestures in real-time** using:
